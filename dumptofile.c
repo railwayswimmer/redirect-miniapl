@@ -12,7 +12,7 @@ int main(void)
 	{
 		pid = getpid();
 		fd = freopen("latestpid", "w", stdout);
-		printf("%d", pid);
+		printf("%d\n", pid);
 		fclose(fd);
 		ret = 0;
 	}
